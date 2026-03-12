@@ -1,0 +1,11 @@
+package com.example.taskmanager.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND) // This automatically returns a 404 status code!
+public class TaskNotFoundException extends RuntimeException {
+  public TaskNotFoundException(Long id) {
+    super("Could not find task with id: " + id);
+  }
+}
