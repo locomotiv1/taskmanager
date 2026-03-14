@@ -1,6 +1,6 @@
 # Task Manager REST API
 
-Prosta aplikacja backendowa do zarządzania zadaniami (TODO), napisana w Javie z wykorzystaniem Spring Boot. Projekt został stworzony jako zadanie rekrutacyjne w celu zaprezentowania umiejętności pracy z REST API, relacyjną bazą danych oraz dbałości o jakość kodu.
+Aplikacja backendowa do zarządzania zadaniami, napisana w Javie z wykorzystaniem Spring Boot
 
 ## Technologie
 * **Java 17**
