@@ -10,9 +10,12 @@ public class Task {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
 
   @NotBlank(message = "Title cannot be blank")
   private String title;
+
+  private String description;
 
   @Enumerated(EnumType.STRING)
   private TaskStatus status;
